@@ -66,12 +66,11 @@ LAYERS = 4
 INTERMEDIATE_SIZE = 1024
 CONTEXT_LENGTH = 1024
 TRAINING_SEQUENCE_LENGTH = 512
-NEW_MODEL = "Llama_Extended_v1"
-HUGGINGFACE_ID = os.getenv('HF_USERNAME')
+NEW_MODEL = "Llama_v1"
 
 BATCH_SIZE = 350
 LEARNING_RATE = 5e-4
-EPOCHS = 10
+EPOCHS = 1
 
 def main_print(*args, **kwargs):
     """
