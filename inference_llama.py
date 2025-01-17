@@ -15,7 +15,7 @@ from transformers import (
     GenerationConfig
 )
 
-from train_v5_standard_llama2 import LlamaForCausalLM
+from train_llama import LlamaForCausalLM
 
 load_dotenv()
 
