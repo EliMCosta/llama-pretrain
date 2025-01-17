@@ -65,7 +65,7 @@ def main():
             print("[INFO] Using CPU (no GPU available or device overridden).")
 
     # --------------------------------------------------------
-    # 1) Load the trained Raven model from disk
+    # 1) Load the trained model from disk
     # --------------------------------------------------------
     try:
         model = LlamaForCausalLM.from_pretrained(args.model_path, local_files_only=True)
